@@ -17,3 +17,6 @@ do
     docker push brandonschabell/python-chromedriver:${version}
     docker push brandonschabell/python-chromedriver:python${version}-chrome$CHROME_VERSION
 done
+
+docker tag brandonschabell/python-chromedriver:3.7 brandonschabell/python-chromedriver
+docker push brandonschabell/python-chromedriver
