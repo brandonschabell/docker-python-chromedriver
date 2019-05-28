@@ -1,4 +1,5 @@
-FROM python:2.7
+ARG PYTHON_VERSION=3.6
+FROM python:${PYTHON_VERSION}
 
 # install google chrome
 RUN wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -
