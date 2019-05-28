@@ -27,4 +27,4 @@ $ cd [your working directory]
 $ docker run -it -w /usr/workspace -v $(pwd):/usr/workspace brandonschabell/python-chromedriver:[version] bash
 ```
 
-This will create a container from the image. Then you could starting running the commands in the container as in your working directory.
+This will create a container from the image. Then you can start running the commands in the container as you would in your working directory.
